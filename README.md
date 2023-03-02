@@ -6,7 +6,7 @@ A few weeks after starting his new role, Jeremy is approached by upper managemen
 
 > ### Linear Regression to Predict MPG
 
-![1](resources/Step_1_results_1.png)
+![image](https://user-images.githubusercontent.com/124399950/222401824-0f309086-d3c7-454e-88f7-f7684079ed48.png)
 
 Residual standard error: 8.774 on 44 degrees of freedom  
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825  
@@ -26,12 +26,11 @@ The **R-squared** value in its turn is *0.7149* and assumes that around 72% of M
 Total summary  
 
 
-![2](resources/part_2_total_summary.png)
+![image](https://user-images.githubusercontent.com/124399950/222401979-90134ddd-21c9-47bb-94d4-0df387305ee7.png)
 
 Lot Summary  
 
-
-![3](resources/part_2_lot_summary.png)
+![image](https://user-images.githubusercontent.com/124399950/222402053-94b065ae-601a-4077-bff2-b7e38ffb97de.png)
 
 If our required metric of variation for PSI is to be less than 100, in aggregate across all the lots we would pass this metric (variance is 62 PSI), but lot 3 fails this metric (variance is 170 PSI). Lot 3 has too much variation and should be reconsidered. 
 
@@ -39,19 +38,19 @@ If our required metric of variation for PSI is to be less than 100, in aggregate
 
 1 sample T-test  
 
-![4](resources/part_3_1_sampl_t_test.png)
+![image](https://user-images.githubusercontent.com/124399950/222402174-bb38861a-b1a9-42d5-82af-a9514ee83607.png)
 
 1 sample T-test Lot1 population mean
 
-![5](resources/part_3_1_sampl_t_test_Lot1.png)
+![image](https://user-images.githubusercontent.com/124399950/222402238-53084004-cb84-43ed-94ee-f6e4eca8569f.png)
 
 1 sample T-test Lot2 population mean
 
-![6](resources/part_3_1_sampl_t_test_Lot2.png)
+![image](https://user-images.githubusercontent.com/124399950/222402302-50334d13-3536-489c-b9db-659d1da4b3f5.png)
 
 1 sample T-test Lot3 population mean
 
-![7](resources/part_3_1_sampl_t_test_Lot3.png)
+![image](https://user-images.githubusercontent.com/124399950/222402342-8b74bbe2-647d-4c3c-9ef2-1e306d588a76.png)
 
 For a single sample T-test comparing lots 1 and 2 to the population mean we so no statistically significant difference in the means (Lot1 P=1.5 e-11; Lot2 p=0.0006). 
 However we do see a statistically significant difference in the means between lot3 and the population (p=0.1589)
